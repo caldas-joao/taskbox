@@ -612,6 +612,14 @@
                 "defaultValue": "Template.bind({})"
             },
             {
+                "name": "myStory",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Button.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -711,6 +719,14 @@
             "src/stories/Button.stories.ts": [
                 {
                     "name": "Large",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Button.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "myStory",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
                     "file": "src/stories/Button.stories.ts",
@@ -896,6 +912,16 @@
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
                 "name": "Large",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/Button.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "myStory",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
